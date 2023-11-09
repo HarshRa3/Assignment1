@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parentCon{
+    width: 100%;
+    height: 100vh;
+    background-color: #d7e7f4;
+}
+.wrapper{
+    width: 954px;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+}
+.upcon{
+    height: 250px;
+    /* background-color: green; */
+    padding: 22px;
+}
+.logo{
+    float: left;
+}
+
+#childcon{
+    float: right;
+    margin-top: 6px;
+}
+.child_con2{
+    display: inline-block;
+}
+.img{
+    position: relative;
+    top: 7px;
+}
+.inp{
+    height: 23px
+}
+.child_con a{
+    color: #007BAF;
+    padding-left: 38%;
+}
+.hrline{
+    /* font-weight: bolder; */
+    height: 3px;
+    background: black;
+}
+@media(max-width:1000px){
+
+    .wrapper{
+        width: 561px;
+        /* padding: auto; */
+    }
+
+    .logo{
+        float: none;
+        margin-left: 17%;
+    }
+    #childcon{
+        float: none;
+        margin: 4% 0 0 32%;
+    }
+    .child_con a{
+        padding-left: 10%;
+    }
+    .child_con2{
+        display: block;
+    }
+    .inp {
+        height: 23px;
+        margin-left: 26px;
+        margin-top: 8px;
+      }
+      .img {
+        /* position: relative; */
+        top: 8px;
+        left: 73px;
+      }
+}
+@media(max-width:600px){
+
+    .wrapper{
+        width: 389px;
+        /* padding: auto; */
+    }
+
+    .logo{
+        float: none;
+        margin-left: -2%;
+    }
+    #childcon{
+        float: none;
+        margin: 4% 0 0 25%;
+    }
+    .child_con a{
+        padding-left: 13%;
+    }
+    .child_con2{
+        display: block;
+    }
+}
+@media(max-width:426px){
+
+    .wrapper{
+        width: 200px;
+        padding: auto;
+    }
+
+    .logo{
+        float: none;
+        margin-left: -11%;
+    }
+    #childcon{
+        float: none;
+    margin: 4% 0 0 14%;
+    height: 15%;
+    }
+    .logo img{
+        width: 177px;
+    }
+    .child_con a{
+        padding-left: 4%;
+        font-size: 12px;
+    }
+    .child_con{
+        margin-top: 7px;
+    }
+    .child_con2{
+        display: block;
+    }
+    .child_con2 img{
+        margin-left:-36% ;
+    }
+    .inp {
+        margin-left: -22px;
+        margin-top: 2px;
+        width: 157px;
+      }
+}
+
